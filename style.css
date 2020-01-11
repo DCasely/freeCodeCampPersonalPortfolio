@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+}
+
+/* NAVBAR MUST BE FIXED TO THE TOP OF THE PAGE */
+
+#navbar {
+  background: rgba(0, 0, 139, 0.157);
+  position: fixed;
+  width: 100%;
+}
+
+#about-link {
+  border-bottom: 1px solid white;
+  padding: 5px;
+  display: block;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* HEIGHT OF WELCOME SECTION MUST BE EQUAL TO THE HEIGHT OF THE VIEWPORT */
+
+#welcome-section {
+  background-image: url(https://wallpapercave.com/wp/wp2848515.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+h2 {
+  font-style: italic;
+}
+
+/* PROJECTS SECTION */
+
+#projects {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/648/188/non_2x/abstract-blue-hexagons-with-nodes-digital-geometric-and-lines-and-dots-dark-blue-background-with-horizontal-light-technology-connection-concept-vector.jpg);
+  background-size: contain;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* ABOUT ME SECTION */
+
+#about {
+  border-top: 1px solid white;
+  background: black;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MEDIA QUERY REQUIRED BELOW */
+
+@media (max-width: 480px) {
+    #navbar {
+        display: none;
+    }
+}
